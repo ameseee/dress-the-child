@@ -1,27 +1,53 @@
-.App {
+.app {
   text-align: center; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
-
-.App-header {
-  background-color: #222;
+.home-header {
+  background-image: url(../assets/kids-photo.jpeg);
   height: 150px;
   padding: 20px;
   color: white; }
 
-.App-title {
+.brand-logo {
   font-size: 1.5em; }
 
-.App-intro {
-  font-size: large; }
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto; }
 
-section {
+.home-section {
+  padding: 0 15%;
+  margin: 0 auto;
   outline: 1px solid blue; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
+.mission-section,
+.dinner-section {
+  display: flex;
+  flex-direction: row; }
+
+.text-section {
+  width: 70%; }
+
+#what-we-do-img {
+  height: 40px;
+  width: 28%;
+  outline: 1px solid orange; }
+
+.help-option {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; }
+
+.help-title {
+  width: 30%; }
+
+.partner-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.partner-card {
+  width: 27.5%;
+  outline: 1px solid green; }
