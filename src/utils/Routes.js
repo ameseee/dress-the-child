@@ -8,7 +8,6 @@ class Routes extends Component {
   render() {
     return(
       <div>
-        {/* <Route exact path="/" component={ App }/> */}
         <Route path="/dinner" component={ Dinner }/>
         <Route path="/donate" component={ Donate }/>
       </div>
