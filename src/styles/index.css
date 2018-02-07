@@ -1,0 +1,9 @@
+@import url(./App.css);
+@import url(./Dinner.css);
+@import url(./Donate.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
