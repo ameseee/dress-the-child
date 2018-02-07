@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './Components/App';
+import Donate from './Components/Donate';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+  ReactDOM.render(<Donate />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
