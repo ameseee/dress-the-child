@@ -5,17 +5,43 @@
   background-image: url(../assets/kids-photo.jpeg);
   height: 150px;
   padding: 20px;
-  color: white; }
-
-.brand-logo {
-  font-size: 1.5em; }
+  color: white;
+  height: 60%; }
 
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 70%;
-  margin: 0 auto; }
+  margin: 0 auto 10% auto; }
+
+.brand-logo {
+  font-size: 1.5em; }
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.nav-option {
+  text-transform: uppercase;
+  font-size: 85%;
+  margin-left: 20px;
+  cursor: pointer; }
+
+h1, h2 {
+  font-family: 'Libre Baskerville'; }
+
+.call-to-action-btn {
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-bottom: 80px; }
+
+.call-to-action-btn:hover {
+  color: red; }
 
 .home-section {
   padding: 0 15%;
