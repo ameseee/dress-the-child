@@ -6,12 +6,16 @@ class App extends Component {
       <div className="app">
         <header className="home-header">
           <nav className="nav">
-          <h1 className="brand-logo">Dress The Child</h1>
-            <h3>Support Us</h3>
-            <h3>Annual Dinner</h3>
-            <h3>Shopping Events</h3>
-            <button>Donate</button>
+          <h2 className="brand-logo">Dress The Child</h2>
+          <aside className="nav-container">
+            <h3 className="nav-option">Support Us</h3>
+            <h3 className="nav-option">Annual Dinner</h3>
+            <h3 className="nav-option">Shopping Events</h3>
+          </aside>
           </nav>
+          <h1>Some words</h1>
+          <p>a lot of littler words</p>
+          <button className="call-to-action-btn">Donate</button>
         </header>
 
         <section class="home-section">
