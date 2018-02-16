@@ -2,6 +2,9 @@
 @import url(./Dinner.css);
 @import url(./Donate.css);
 
+* {
+  font-family: Montserrat;
+}
 body {
   margin: 0;
   padding: 0;
